@@ -1,0 +1,29 @@
+PODS:
+  - CardScan (2.0.9)
+  - Flutter (1.0.0)
+  - flutter_card_scan (1.0.0):
+    - CardScan (~> 2.0.2)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_card_scan (from `.symlinks/plugins/flutter_card_scan/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CardScan
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_card_scan:
+    :path: ".symlinks/plugins/flutter_card_scan/ios"
+
+SPEC CHECKSUMS:
+  CardScan: 2f7a3b39a37c0e2c67a9502b3a61a59f007c0710
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_card_scan: e45fd3ab2493ff3d658bcf422412e9b56870a047
+
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+
+COCOAPODS: 1.11.2

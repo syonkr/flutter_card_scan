@@ -1,0 +1,5 @@
+<resources>
+    <string name="bouncer_card_scan_instructions">카드 스캔</string>
+    <string name="bouncer_card_scan_security">화면 보안기능 작동중 입니다</string>
+    <string name="bouncer_processing_card">처리중, 잠시만 기다려주세요</string>
+</resources>
