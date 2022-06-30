@@ -1,6 +1,6 @@
 name: flutter_card_scan
 description: A flutter plugin with getbouncer card scan plugin integration
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/syonkr/flutter_card_scan
 
 environment:
