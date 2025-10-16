@@ -1,5 +1,11 @@
 <resources>
-    <string name="bouncer_card_scan_instructions">카드 스캔</string>
-    <string name="bouncer_card_scan_security">화면 보안기능 작동중 입니다</string>
-    <string name="bouncer_processing_card">처리중, 잠시만 기다려주세요</string>
+    <string name="stripe_card_scan_instructions">카드를 스캔해주세요</string>
+    <string name="stripe_camera_permission_settings_message">카드를 스캔하려면 설정에서 카메라 접근을 허용해주세요</string>
+    <string name="stripe_card_scan_privacy_link_text"><![CDATA[카드 정보 확인을 위해 Stripe를 사용합니다. Stripe는 개인정보
+  보호정책에 따라 귀하의 데이터를 사용하고 저장할 수 있습니다. <a
+  href=\"https://support.stripe.com/questions/stripes-card-image-verification\"><u>자세히 알아보기</u></a>]]></string>
+    <string name="stripe_card_scan_title">카드를 사각형 안에 위치시켜주세요</string>
+    <string name="stripe_close_button_description">닫기</string>
+    <string name="stripe_swap_camera_button_description">카메라 전환</string>
+    <string name="stripe_torch_button_description">플래시</string>
 </resources>
