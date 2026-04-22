@@ -4,7 +4,7 @@ import android.app.Activity
 import android.content.Context
 import android.view.WindowManager
 import androidx.annotation.NonNull
-import androidx.fragment.app.FragmentActivity
+import androidx.activity.ComponentActivity
 import com.stripe.android.stripecardscan.cardscan.CardScanSheet
 import com.stripe.android.stripecardscan.cardscan.CardScanSheetResult
 import com.stripe.android.stripecardscan.payment.card.CardIssuer
@@ -24,7 +24,6 @@ class FlutterCardScanPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
     private var activity: Activity? = null
     private var context : Context? = null
     private var scanResult : Result? = null
-    private var apiKey : String = "qOJ_fF-WLDMbG05iBq5wvwiTNTmM2qIn"
     private lateinit var cardScanSheet : CardScanSheet
 
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
@@ -76,8 +75,7 @@ class FlutterCardScanPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
         override fun onAttachedToActivity(binding: ActivityPluginBinding) {
             activity = binding.activity
             cardScanSheet = CardScanSheet.create(
-                from = activity as FragmentActivity,
-                stripePublishableKey = apiKey,
+                from = activity as ComponentActivity,
                 cardScanSheetResultCallback = ::handleScanResult
             )
         }
